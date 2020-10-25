@@ -1,0 +1,10 @@
+.popup-drop-enter-active {
+    transition: all 0.3s ease;
+}
+.popup-drop-leave-active {
+    transition: all .3s ease;
+    transform: translateY(-500px);
+}
+.popup-drop-enter {
+    transform: translateY(-500px);
+}
